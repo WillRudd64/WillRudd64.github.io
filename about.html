@@ -51,32 +51,43 @@
 <!-- NAVBAR - Start - Sourced: https://getbootstrap.com/docs/5.3/components/navbar/  -->
 <nav class="navbar navbar-expand-md navbar-light fixed-top">
   <div class="container-fluid">
-  <a class="navbar-brand" href="index.html"><img class="img-fluid" src="favicon_io/favicon-32x32.png" alt="Maggie Simpson in a thoughtful pose"> </a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-  <ul class="navbar-nav mx-auto mb-2 mb-md-0">
-  <li class="nav-item">
-  <a class="nav-link" href="index.html">Home</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="about.html">About Me</a>
-  </li>
-  <li class="button"> <button type="button" class="btn btn-warning"  onclick="window.open('pdf/WR-Resume-2025.pdf'); return true;">Resume Download</button>
-  </li>
-  </ul>
-  </div>
+  
+    <!-- Hamburger first, on the left -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">
+      <img class="img-fluid" src="favicon_io/favicon-32x32.png" alt="WR Logo">
+    </a>
+
+    <!-- Collapsible Menu -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-warning" onclick="window.open('pdf/WR-Resume-2025.pdf'); return true;">
+            Resume Download
+          </button>
+        </li>
+      </ul>
+    </div>
+
   </div>
 </nav>
 <!-- NAVBAR - End -->
 <!---Images-->
-  <div class="image-container">
-    <img class="img-fluid" src="img/PortfolioBg.png" alt="Sunset">
-    <div class="image-text">Experience  </div>
-  </div>
 
-  <div class="col-lg-6 mx-auto bg-white">
+    <img src="img/PortfolioBg.png" alt="Desktop" class="desktop-img">
+      <div class="image-text">Experience  </div>
+
+  <div class="col-lg-6 mx-auto bg-white"></div>
   <p>Hi, I'm <span class="standout">Willem Rudd</span> Aspiring Creative Writer and Literature connoisseur. <br> My work in various field's may look irrelevent but I believe that my experiences interacting with many different people allows me to see <span class="standout">Humanity</span>. This experience greatly impacts my writing. 
 </p>
 
@@ -85,131 +96,126 @@
 
 </header>
 
-
-<h1 class="text-center">Job Experience</h1>
-    <!-- Content goes here -->
-<div class="divider-custom">
-  <div class="divider-custom-line"></div>
-  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-  <div class="divider-custom-line"></div>
-</div>
-
-<div class="row">
-  <div class="col-lg-4">
-      <div class="job-detail candidates-profile-education text-center mb-5 mt-5">
-          <div class="profile-education-icon">
-            <i class="mdi mdi-school"></i>
-          </div>
-          <h6 class="text-uppercase f-17"><a href="https://www.healthshare.nsw.gov.au/" class="text-muted">HealthShare NSW</a></h6>
-          <p class="f-14 mb-1">July 2023 - Present</p>
-          <p class="f-14 mb-0">Food Services Assistant </p>
-          <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-          </div>
-          <p class="f-14 mb-0">Working hospital staff to bring patients healthly meals.&#129386;</p>
-      </div>
+<section id="Experience">
+  
+  <h1 class="text-center">Job Experience</h1>
+      <!-- Content goes here -->
+  <div class="divider-custom">
+    <div class="divider-custom-line"></div>
+    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+    <div class="divider-custom-line"></div>
   </div>
-
-  <div class="col-lg-4">
-      <div class="job-detail candidates-profile-education text-center mb-5 mt-5">
-          <div class="profile-education-icon">
-              <i class="mdi mdi-library"></i>
-          </div>
-          <h6 class="text-uppercase f-17"><a href="https://www.tcc.nsw.edu.au/" class="text-muted">Toongabbie Christian College</a></h6>
-          <p class="f-14 mb-1">March 2023- July 2023</p>
-          <p class="f-14 mb-0">Canteen Assistant</p>
-          <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-          </div>
-          <p class="f-14 mb-0">Working with school staff to bring healthy meals to students.&#129365;</p>
-      </div>
-  </div>
-
-  <div class="col-lg-4">
-      <div class="job-detail candidates-profile-education text-center text-muted mb-5 mt-5">
-          <div class="profile-education-icon">
-              <i class="mdi mdi-briefcase-check"></i>
-          </div>
-          <h6 class="text-uppercase f-17"><a href="https://www.tac.church/" class="text-muted">Toongabbie Anglican Church</a></h6>
-          <p class="f-14 mb-1">2019-July 2023</p>
-          <p class="f-14 mb-0">Volunteer Children's Worker</p>
-          <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-          </div>
-          <p class="f-14 mb-0">Supervising children in an educational setting.&#129490;</p>
-      </div>
-  </div>
-</div>
-</div>
-
-<div class="divider-custom">
-  <div class="divider-custom-line"></div>
-  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-  <div class="divider-custom-line"></div>
-</div><!-- CARDS - end -->
-</div>
-<!-- Container - End -->
-
-
-<hr class="w-50 mx-auto">
-
-<h1 class="text-center">Education</h1>
-
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h3 class="accordion-header" id="headingOne">
-      <button class="accordion-button uniquebutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        High School Diploma 2017-2022
-      </button>
-    </h3>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>I studied at Toongabbie Christian College.</strong>
-Subjects studied: Math, English, Legal Studies, Business Studies, Modern
-History and Drama.      </div>
+  
+  <div class="row">
+    <div class="col-lg-4">
+        <div class="job-detail candidates-profile-education text-center mb-5 mt-5">
+            <div class="profile-education-icon">
+              <i class="mdi mdi-school"></i>
+            </div>
+            <h6 class="text-uppercase f-17"><a href="https://www.healthshare.nsw.gov.au/" class="text-muted">HealthShare NSW</a></h6>
+            <p class="f-14 mb-1">July 2023 - Present</p>
+            <p class="f-14 mb-0">Food Services Assistant </p>
+            <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <p class="f-14 mb-0">Working with hospital staff to bring patients healthy meals.&#129386;</p>
+        </div>
+    </div>
+  
+    <div class="col-lg-4">
+        <div class="job-detail candidates-profile-education text-center mb-5 mt-5">
+            <div class="profile-education-icon">
+                <i class="mdi mdi-library"></i>
+            </div>
+            <h6 class="text-uppercase f-17"><a href="https://www.tcc.nsw.edu.au/" class="text-muted">Toongabbie Christian College</a></h6>
+            <p class="f-14 mb-1">March 2023- July 2023</p>
+            <p class="f-14 mb-0">Canteen Assistant</p>
+            <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <p class="f-14 mb-0">Working with school staff to bring healthy meals to students.&#129365;</p>
+        </div>
+    </div>
+  
+    <div class="col-lg-4">
+        <div class="job-detail candidates-profile-education text-center text-muted mb-5 mt-5">
+            <div class="profile-education-icon">
+                <i class="mdi mdi-briefcase-check"></i>
+            </div>
+            <h6 class="text-uppercase f-17"><a href="https://www.tac.church/" class="text-muted">Toongabbie Anglican Church</a></h6>
+            <p class="f-14 mb-1">2019-July 2023</p>
+            <p class="f-14 mb-0">Volunteer Children's Worker</p>
+            <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <p class="f-14 mb-0">Supervising children in an educational setting.&#129490;</p>
+        </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h3 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed uniquebutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Drama School 2015-2020
-      </button>
-    </h3>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>I have taken acting classes at Helen O'Grady Drama School.</strong> Since 2015 I have undertaken these drama classes, including performance and participation in a range of drama related activities. This has enabled me to gain
-confidence when interacting with people and with public speaking. 
-
+  
+  <div class="divider-custom">
+    <div class="divider-custom-line"></div>
+    <div class="divider-custom-line"></div>
+  </div><!-- CARDS - end -->
+  <!-- Container - End -->
+  
+  
+</section>
+<section id="Education">
+  
+  <h1 class="text-center">Education</h1>
+  
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="headingOne">
+        <button class="accordion-button uniquebutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          High School Diploma 2017-2022
+        </button>
+      </h3>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>I studied at Toongabbie Christian College.</strong>
+  Subjects studied: Math, English, Legal Studies, Business Studies, Modern
+  History and Drama.      </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed uniquebutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Drama School 2015-2020
+        </button>
+      </h3>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>I have taken acting classes at Helen O'Grady Drama School.</strong> Since 2015 I have undertaken these drama classes, including performance and participation in a range of drama related activities. This has enabled me to gain
+  confidence when interacting with people and with public speaking. 
+  
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed uniquebutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Diploma of Creative Industies & Communication 2025
+        </button>
+      </h3>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>I am currently studying at Western Sydney university</strong> This course covers various topics such as photography and Website design. I intend to further my study in the field of English. 
+        </div>
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h3 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed uniquebutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Diploma of Creative Industies & Communication 2025
-      </button>
-    </h3>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>I am currently studying at Western Sydney university</strong> This course covers various topics such as photography and Website design. I intend to further my study in the field of English. 
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>
-</div>
-
-
-
-
-
+  
+  
+  
+  
+</section>
 
 
 
@@ -220,8 +226,8 @@ confidence when interacting with people and with public speaking.
     <div class="row">
     <div class="col">
     <h2 id="contactme">Work, Collaborate, Commission</h2>
-        <p class="intro">Whether your a fellow writer or prospective client <span class="standout">Willem Rudd</span> can help you. If you would like to collaborate, commission or just chat you can contact me using my social media accounts (LinkedIn, Facebook, Instagram), email, telephone or complete the contact form below!</p>
-      <p><strong>I am looking forward to hearing from you!</strong></p>
+        <p class="intro">If you are a writer or a client. <span class="standout">Willem Rudd</span> can help you. If you would like to you can contact me using my social media accounts (LinkedIn, Facebook, Instagram), email, telephone or complete the contact form below!</p>
+      <p><strong>Let's make something amazing together!</strong></p>
 
 <!-- FORM - Start - Sourced from: https://www.bootdey.com/snippets/view/contact-page-section -->
 
@@ -254,7 +260,7 @@ confidence when interacting with people and with public speaking.
           </div>
           <div class="col-md-12 formcol">
             <div class="send">
-            <a id="send_message" class="px-btn theme formanchor" href="Https:gmail.com"><span>Contact Me</span> <i class="arrow"></i></a>
+           <button type="submit" href="mailto:willem.rudd@gmail.com" class="btn btn-warning">Send Message</button>
           </div>
           </div>
           </div>
@@ -264,7 +270,7 @@ confidence when interacting with people and with public speaking.
             <div class="col-md-5 col-lg-4 m-15px-tb formcol">
                 <div class="contact-name">
                     <h5>Mail</h5>
-                    <p> <a class="formanchor" href="mailto:maggie@gmail.com">Willem.Rudd@gmail.com</a></p>
+                    <p> <a class="formanchor" href="mailto:Willem.Rudd@gmail.com">Willem.Rudd@gmail.com</a></p>
                 </div>
                 <div class="contact-name">
                     <h5>Visit My Studio</h5>
@@ -286,8 +292,6 @@ confidence when interacting with people and with public speaking.
 
 
 
-<hr class="w-50 mx-auto">
-
 
 <!-- FOOTER - Start -->
 <div class="container footer my-3 py-3">
@@ -296,9 +300,9 @@ confidence when interacting with people and with public speaking.
 
 <!-- Footer information and social media links -->
   <p class="text-center mt-3">
-  <a class="footsocial" href="tel:1800MaggieS"><i class="bi bi-telephone fs-1 p-2"></i></a>
+  <a class="footsocial" href="tel:+61-3-867-5309"><i class="bi bi-telephone fs-1 p-2"></i></a>
   <a class="footsocial" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram fs-1 p-2"></i></a>
-  <a class="footsocial" href="mailto:maggies@gmail.com" target="_blank"><i class="bi bi-envelope fs-1 p-2"></i></a>
+  <a class="footsocial" href="mailto:willem.rudd@gmail.com" target="_blank"><i class="bi bi-envelope fs-1 p-2"></i></a>
   <a class="footsocial" href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin fs-1 p-2"></i></a>
   </p>
 </div>
